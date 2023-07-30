@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 16px;
+            background-color: rgb(118, 199, 64);
+        }
+
+        body {
+
+            background-color: palegreen;
+
+        }
+
+        a {
+            /* color: red; */
+            text-transform: capitalize;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header li {
+            display: inline;
+            /* margin-left: 1rem; */
+            /* padding-left: 16px; */
+        }
+
+        header ul {
+            padding: 0;
+
+        }
+/* 
+        header li:first-child {
+            margin-left: 0; 
+        }
+            
+            */
+        header li:not(:first-child){
+            margin-left: 1rem;
+        }
+
+        ul {
+            padding-left: 32px;
+            margin: 16px;
+        }
+
+        main {
+            padding: 16px;
+
+        }
+
+        p.red {
+            color: blue;
+        }
+
+        .box {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+
+        div.red {
+            background-color: red;
+        }
+
+        span {
+            color: gold;
+        }
+
+        header a.active {
+            color: red;
+        }
+
+        header a:hover {
+            color: red;
+
+        }
+        /* .box:not(.red){
+            padding: 1rem;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#" class="active">Nav bar</a></li>
+            </ul>
+
+
+        </nav>
+
+
+
+    </header>
+
+    <main>
+
+        <h1>Navbar</h1>
+        <hr>
+        <span>one</span>
+        <span>two</span>
+        <hr>
+        <p class="active">p-one</p>
+        <p>p-two</p>
+        <hr>
+
+        <ul>
+            <li>inline</li>
+            <li>inline-block</li>
+            <li>block</li>
+            <li>flex</li>
+            <li>grid</li>
+        </ul>
+
+        <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id harum accusamus reprehenderit
+            inventore voluptatum deleniti magni dicta! Assumenda quod reiciendis, sapiente maxime repellat minima
+            voluptatem saepe illo natus voluptatibus quos.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam inventore dolores cupiditate ducimus
+            eaque dolorem, aliquid, earum accusamus ipsum voluptates, tempora explicabo dolore nesciunt nisi ex. Quis,
+            fugit magni?
+        </p>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ducimus non eaque facilis perferendis
+            blanditiis, commodi accusantium ratione hic libero nesciunt? Veritatis incidunt autem architecto quaerat,
+            iste delectus eveniet ea?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur optio enim ad voluptatibus iusto
+            necessitatibus aut esse hic, at, vitae veniam. Ex ullam dolor possimus consequuntur earum et illum aliquam.
+        </p>
+
+        <div class="box red">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-2</div>
+
+    </main>
+
+
+</body>
+
+</html>
