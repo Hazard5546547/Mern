@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 000 */
+    p{
+        color: red;
+        color: aqua;
+    }
+    body p{
+        color:blue ;
+    }
+    .red{
+        color: brown;
+    }
+    #orange{
+        color: chartreuse;
+    }
+    p#orange{
+        color: chocolate;
+    }
+    body p#orange{
+        color: purple !important;
+    }
+    p#orange.red{
+        color: darkgreen;
+    }
+    h1:hover{
+        color: red;
+    }
+
+</style>
+<body>
+    <h1>specificity score</h1>
+    id > class > tag
+    <span>number of id, number of class,number of tags</span>
+    <hr>
+
+    <p class="red" id="orange" style="color: white;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad neque eius pariatur blanditiis rerum facilis excepturi, unde minus asperiores? Molestias nihil nulla eligendi quis sit facilis ducimus illum blanditiis corrupti.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate alias earum, tenetur reprehenderit sed dicta quas. Officia perferendis possimus, velit placeat hic cumque eos sapiente at, cum, a reiciendis delectus.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis cum soluta ab delectus nihil dolore animi adipisci alias. Cumque quo iure, incidunt ex labore amet nihil eaque nesciunt voluptas soluta?
+    </p>
+    
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css reset  */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul,
+        ol {
+            list-style-type: none;
+        }
+
+        /* end css reset */
+
+        /* p,li{
+            color: red;
+        }
+         */
+
+        .text-3xl {
+            font-size: 16px;
+            font-size: 1rem;
+            font-size: 3rem;
+            /* 3*16px */
+        }
+
+        .font-bold {
+            font-weight: 700;
+        }
+
+        body {
+            padding: 1rem;
+        }
+
+        header {
+            background-color: antiquewhite;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        header ul {
+            list-style-type: none;
+        }
+
+        header li {
+            display: inline;
+
+        }
+
+        .ml-1 {
+            margin-left: 1rem;
+        }
+
+        .selectors-list ul {
+            padding-left: 2rem;
+            list-style-type: disc;
+            /*2*16px  */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="ml-1"><a href="#">About us</a></li>
+                <li class="ml-1"><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <p class="text-3xl font-bold">selectors</p>
+    <div class="selectors-list">
+
+        <ul>
+            <li>elements/tags</li>
+            <li>class</li>
+            <li>id</li>
+            <li>
+                combined selectors
+                <ul>
+                    <li class="font-bold">descendent selectors</li>
+                    <li class="font-bold">and selectors</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

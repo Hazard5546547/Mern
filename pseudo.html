@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+        /* div.red{
+            background-color: red;
+        } */
+
+        .boxes :first-child{
+            background-color: red;
+        }
+        .boxes :last-child{
+            background-color: red;
+
+        }
+        .boxes :nth-child(3){
+            background-color: cadetblue;
+        }
+        p span.red {
+            color: red;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <!-- <h1>Pseudo class</h1> -->
+
+    <div class="boxes">
+
+        <div class="box red">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box red">box-4</div>
+        <div class="box">box-5</div>
+
+    </div>
+
+
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, <span class="red">aut reiciendis exercitationem</span>reprehenderit magnam impedit fuga aliquam molestias maxime numquam saepe laudantium. Cum vel officia excepturi nihil sapiente. Fugiat, assumenda.
+    </p>
+    
+</body>
+</html>
