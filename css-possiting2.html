@@ -12,9 +12,7 @@
             height: 100px;
             width: 100px;
         }
-        .static{
-            position: static;
-        }
+     
         .relative{
             position: relative;
             left: 100px;
@@ -26,40 +24,21 @@
             top: 0;
             right: 0;
         }
-        .fixed{
-            position: fixed;
-            color: white;
-            background-color: red;
-            height: 50px;
-            width: 50px;
-            justify-content: center;
-            align-items: center;
-            right: 10px;
-            bottom: 10px;
-        }
-        .sticky{
-            position: sticky;
-            top: 100px;
-            background-color: cyan;
-        }
-        .layer{
-            border: 1px solid;
-        }
+        
     </style>
 </head>
 <body>
-
-    <div class="layer">
-
-        
-            <div class="box static">static</div>
             <div class="box relative">relative</div>
             <div class="box absolute">absolute</div>
-            <div class="box fixed">fixed</div>
-            <div class="box sticky">sticky</div>
+        
+            <div class="parent-box">
+                <div class="child-box">child</div>
+                <div class="child-box">element</div>
+            </div>
+    
 
 
-    </div>
+ 
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae eum fugiat quibusdam provident ullam sint quod nesciunt nulla atque repudiandae perferendis, consectetur perspiciatis accusantium iusto voluptate pariatur corporis? Dolorem?</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae eum fugiat quibusdam provident ullam sint quod nesciunt nulla atque repudiandae perferendis, consectetur perspiciatis accusantium iusto voluptate pariatur corporis? Dolorem?</p>
