@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .parent {
+            display: flex;
+          height: 500px;
+          width: 500px;
+         background-color: aqua;
+         flex-direction: column;
+            align-items: center;
+         
+        }
+
+        .child {
+            background-color: orange;
+            border: 1px solid;
+            height: 100px;
+            width: 100px;
+            
+        }
+        .parent :nth-child(1){
+            flex-grow: 1;
+        }
+
+        .parent :nth-child(3){
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <div class="child">child</div>
+        <div class="child">child</div>
+        <div class="child">child</div>
+      
+    </div>
+    
+</body>
+</html>
